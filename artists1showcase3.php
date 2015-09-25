@@ -1,4 +1,4 @@
-<div class="detail-page artist1 showcase1">
+<div class="detail-page artist1 showcase3">
 	<span class="glyphicon glyphicon-remove close-this"></span>
 	<div class="container-fluid">
 		<div class="row">

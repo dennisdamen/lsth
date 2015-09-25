@@ -36,7 +36,7 @@
             <div class="content animated">
               <h2 class="main-title">Large title</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button data-artist='1' data-showcase='1' class="btn btn-default">show more</button>
+              <button data-artist='1' data-showcase='1' class="btn btn-default">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
             
             <div class="hover-layer animated"></div>
@@ -47,7 +47,7 @@
             <div class="content animated">
               <h2 class="main-title">Medium title</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button data-artist="1" data-showcase="2" class="btn btn-default">show more</button>
+              <button data-artist="1" data-showcase="2" class="btn btn-default">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
 
             <div class="hover-layer animated"></div>
@@ -58,6 +58,8 @@
 
             <div class="content animated">
               <h2 class="sub-title">Small title</h2>
+
+              <button data-artist='1' data-showcase='3' class="btn btn-default btn-sm">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
             
             <div class="hover-layer animated"></div>
@@ -68,6 +70,8 @@
 
             <div class="content animated">
               <h2 class="sub-title">Small title</h2>
+
+              <button data-artist='1' data-showcase='4' class="btn btn-default btn-sm">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
             
             <div class="hover-layer animated"></div>
@@ -78,6 +82,8 @@
 
             <div class="content animated">
               <h2 class="sub-title">Small title</h2>
+
+              <button data-artist='1' data-showcase='5' class="btn btn-default btn-sm">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
             
             <div class="hover-layer animated"></div>
@@ -88,6 +94,8 @@
 
             <div class="content animated">
               <h2 class="sub-title">Small title</h2>
+
+              <button data-artist='1' data-showcase='6' class="btn btn-default btn-sm">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
             
             <div class="hover-layer animated"></div>
@@ -198,14 +206,6 @@
         var showcase = $(this).data('showcase');
 
         openDetailPage(artist,showcase);
-        var artist = $(this).attr('class').split(' ');
-        // artist = artist[2];
-        // console.log(artist);
-        // var showcase = $(this).attr('class').split(' ').pop();
-        // var myclass = $(this).attr('class').split(' ').pop();
-        // $('.detail-page.'+myclass+'')
-        // $('.'+myclass+'').addClass('show');
-        // $('.detail-page.artist1.art1').addClass('show');
       });
 
       function openDetailPage(artist, showcase){
