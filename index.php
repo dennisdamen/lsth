@@ -20,8 +20,8 @@
       <span class="menu-burger glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 
       <ul class="menu animated list-unstyled">
-        <li><a class="animated artist1" href="#art1">Page 1</a></li>
-        <li><a class="animated artist2" href="?artist=artist1">Page 2</a></li>
+        <li><a class="animated artist1" href="#art1">Leonardo Da Vinci</a></li>
+        <li><a class="animated artist2" href="?artist=artist1">Henri-Émile-Benoît Matisse</a></li>
         <li><a class="animated artist3" href="#art3">Page 3</a></li>
         <li><a class="animated artist4" href="#art4">Page 4</a></li>
       </ul>
@@ -34,8 +34,8 @@
             <div class="img-container art1"></div>
 
             <div class="content animated">
-              <h2 class="main-title">Large title</h2>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h2 class="main-title">Leonardo Da Vinci</h2>
+              <p class="description">Leonardo da Vinci was geboren op 15 april 1452. Om drie uur ‘s nachts om precies te zijn in de stad Toscane in een lager gelegen vallei van de rivier de Arno. Dit is onderdeel van het van Florence...</p>
               <button data-artist='1' data-showcase='1' class="btn btn-default">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
             
@@ -45,8 +45,8 @@
           <div class="col-xs-12 col-sm-6 block medium animated">
             <div class="img-container art2"></div>
             <div class="content animated">
-              <h2 class="main-title">Medium title</h2>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h2 class="main-title">Mona Lisa</h2>
+              <p class="description">Obsessief perfectionistisch voor jaren aan een stuk</p>
               <button data-artist="1" data-showcase="2" class="btn btn-default">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
 
@@ -57,7 +57,7 @@
             <div class="img-container art3"></div>
 
             <div class="content animated">
-              <h2 class="sub-title">Small title</h2>
+              <h2 class="sub-title">The last supper</h2>
 
               <button data-artist='1' data-showcase='3' class="btn btn-default btn-sm">show more <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
             </div>
